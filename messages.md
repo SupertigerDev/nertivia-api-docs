@@ -1,8 +1,8 @@
 # Messagse
 ### Context
-[Get Messages](#get-Message)
+[get-messages](#get-Message)
 
-## Get Message
+## Get Messages
 URL: `https://supertiger.tk/api/messages/channels/{channel_id}`  
 Request Type: `GET`  
 Required Header: `{authorization: "your token"}`
