@@ -27,3 +27,45 @@
   ]
   status: bool
  ```
+ ## Send Message
+**Description**: This request allows you to send a message to a channel.
+
+**URL**: `https://supertiger.tk/api/messages/channels/{channel_id}` 
+
+**Request Type**: `POST`  
+
+**Required Header**: `{authorization: "your token"}`
+
+**Body**: 
+```
+{
+   message: string
+   socketID: string // optional
+   tempID: string // optional
+}
+```
+
+**Response**:
+ ```
+{
+   {
+     "channelID": string,
+     "message": message,
+     "creator": {
+        "uniqueID": string,
+        "username": string,
+        "tag": string,
+        "avatar": string,
+        "admin": number
+     },
+     "created": number,
+     "mentions": [],
+     "quotes": [],
+     "messageID": string,
+   },
+   status: bool
+   tempID: string
+}
+ ```
+ 
+ 
