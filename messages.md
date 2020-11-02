@@ -8,18 +8,18 @@
 **Request Type**: `GET`  
 **Required Header**: `{authorization: "your token"}`
  **Response**:
- ```json
+ ```
  channelID: string
   messages: [
     {
-    channelID: string,
-    created: number
-    creator: {username: string, uniqueID: string, tag: string}
-    files: []
-    mentions: []
-    message: string
-    messageID: string
-    type: number
+      channelID: string,
+      created: number
+      creator: {username: string, uniqueID: string, tag: string}
+      files: []
+      mentions: []
+      message: string
+      messageID: string
+      type: number
     }
   ]
   status: bool
