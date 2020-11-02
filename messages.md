@@ -1,6 +1,6 @@
 # Messagse
 ### Context
-[get-messages](#get-Message)
+[Get Messages](#get-messages)
 
 ## Get Messages
 URL: `https://supertiger.tk/api/messages/channels/{channel_id}`  
