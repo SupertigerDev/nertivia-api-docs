@@ -1,2 +1,2 @@
-# nertivia-api-docs
-Nertivia API Documentation
+# Endpoints
+[Messages](messages.md)
