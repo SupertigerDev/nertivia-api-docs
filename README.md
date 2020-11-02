@@ -1,2 +1,2 @@
 # Endpoints
-[Messages](messages.md)
+• [Messages](messages.md)
