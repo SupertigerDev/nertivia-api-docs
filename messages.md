@@ -41,8 +41,8 @@
 ```
 {
    message: string
-   socketID: string // optional
-   tempID: string // optional
+   socketID?: string
+   tempID?: string
 }
 ```
 
