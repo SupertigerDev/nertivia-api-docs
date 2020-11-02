@@ -4,9 +4,13 @@
 
 ## Get Messages
 **Description**: This request allows you to get the last 50 messages in the channel.
-**URL**: `https://supertiger.tk/api/messages/channels/{channel_id}`  
+
+**URL**: `https://supertiger.tk/api/messages/channels/{channel_id}` 
+
 **Request Type**: `GET`  
+
 **Required Header**: `{authorization: "your token"}`
+
  **Response**:
  ```
  channelID: string
