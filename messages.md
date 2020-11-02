@@ -1,5 +1,4 @@
 # Messagse
-### Context
 [Get Messages](#get-messages)
 
 ## Get Messages
