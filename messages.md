@@ -1,5 +1,6 @@
 # Messagse
 [Get Messages](#get-messages)
+[Send Message](#send-message)
 
 ## Get Messages
 **Description**: This request allows you to get the last 50 messages in the channel.
