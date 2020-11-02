@@ -1,4 +1,4 @@
-# Messagse
+# Messages
 • [Get Messages](#get-messages)  
 • [Send Message](#send-message)
 
